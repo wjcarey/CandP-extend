@@ -1,0 +1,20 @@
+#site-header {
+    position: fixed !important;
+    width: 100% !important;
+    top: -100%;
+}
+
+.tw-header-sticky #site-header, .tw-header-transparent #site-header, .tw-header-transparent-light #site-header {
+    top: -100px !important;
+}
+
+.admin-bar.tw-header-sticky #site-header, .admin-bar.tw-header-transparent #site-header, .admin-bar.tw-header-transparent-light #site-header {
+    top: -100px !important;
+}
+
+Footer{
+	display:none !important;
+}
+.footer-nav-widgets-wrapper{
+	display:none !important;
+}
